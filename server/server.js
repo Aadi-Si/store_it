@@ -10,12 +10,11 @@ const app = express();
 connectDB();
 const port = process.env.PORT;
 const allowedOrigins = [
-  "http://localhost:5173",
   "https://store-it-frontend.onrender.com",
 ];
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: allowedOrigins, credentials: true }));
 
 //API Endpoint
 app.get("/", (req, res) => {
