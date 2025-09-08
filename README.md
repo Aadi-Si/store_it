@@ -32,22 +32,24 @@ StoreIt is a full-stack cloud storage platform (similar to Google Drive) where u
 ---
 
 ## 📂 Project Structure
-StoreIt/
-│── client/ # React + Redux frontend
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Dashboard, Auth, etc.
-│ │ ├── redux/ # Redux slices & store
-│ │ └── App.js
-│── server/ # Node.js + Express backend
-│ ├── models/ # MongoDB schemas
-│ ├── routes/ # API routes
-│ ├── controllers/ # Business logic
-│ ├── middleware/ # Auth, error handling
-│ └── server.js
-│── .env # Environment variables
-│── package.json
-│── README.md
+
+StoreIt/  
+│── client/             # React + Redux frontend  
+│   ├── src/  
+│   │   ├── components/ # Reusable UI components  
+│   │   ├── pages/      # Dashboard, Auth, etc.  
+│   │   ├── redux/      # Redux slices & store  
+│   │   └── App.js  
+│── server/             # Node.js + Express backend  
+│   ├── models/         # MongoDB schemas  
+│   ├── routes/         # API routes  
+│   ├── controllers/    # Business logic  
+│   ├── middleware/     # Auth, error handling  
+│   └── server.js  
+│── .env                # Environment variables  
+│── package.json  
+│── README.md  
+
 
 ## Create .env file inside server/:
 PORT=5000
@@ -77,13 +79,13 @@ Access files securely from anywhere.
 ## 📸 Screenshots:
 
 ### Dashboard
-![Dashboard Screenshot](client/public/Screenshot_2025-09-08_124914.png)
+![Dashboard Screenshot](client/public/dashboard.png)
 
 ### Documents
-![Upload Screenshot](client/public/Screenshot_2025-09-08_125011.png)
+![Upload Screenshot](client/public/document.png)
 
 ### Login
-![Upload Screenshot](client/public/Screenshot_2025-09-08_125032.png)
+![Upload Screenshot](client/public/login.png)
 
 ## 🌍 Live Demo
 https://store-it-frontend.onrender.com/home
