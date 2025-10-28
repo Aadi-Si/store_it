@@ -10,7 +10,7 @@ const Sidebar = () => {
   const dispatch = useDispatch();
 
   const colorClass = (isActive) =>
-    `rounded-full h-[7vh] mb-5 md:mb-5 3xl:mb-7 font-bold text-md flex items-center justify-start gap-0 p-5 px-10 transition-all  cursor-pointer transition-all duration-300 ease-in-out
+    `rounded-full h-[7vh] mb-5 md:mb-5 3xl:mb-7 font-bold text-md flex items-center justify-start gap-5 p-5 px-10 transition-all  cursor-pointer transition-all duration-300 ease-in-out
    ${
      isActive
        ? "text-white bg-brand shadow-md"
